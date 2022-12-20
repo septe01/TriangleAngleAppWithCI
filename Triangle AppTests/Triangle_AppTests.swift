@@ -13,7 +13,7 @@ final class Triangle_AppTests: XCTestCase {
     func testInvalidInputSides() {
         XCTAssertThrowsError(try detectTriangle(-2, 2, 3)) { error in
             XCTAssertEqual(error as? TriangleError, TriangleError.invalidInput)
-        }
+        }      
     }
 
     // cek is triangle Segitiga Sama Sisi
