@@ -2,4 +2,4 @@ language: swift
 osx_image: xcode14
 xcode_project: Triangle App.xcodeproj # path to your xcodeproj folder done
 xcode_scheme: Triangle App
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator,OS=16.1,name=iPhone 11 Pro Max
