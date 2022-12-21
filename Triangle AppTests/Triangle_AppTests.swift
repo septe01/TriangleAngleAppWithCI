@@ -34,7 +34,7 @@ final class Triangle_AppTests: XCTestCase {
     // test segitiga sembarang
     func testDetectRandomTriangle() {
         //        XCTAssertEqual(try detectTriangle(1, 2, 3), "Segitiga Sembarang")
-        XCTAssertEqual(try detectTriangle(3, 5, 7), "Segitiga Sembarang")
+        XCTAssertEqual(try detectTriangle(3, 5, 7), "Segitiga Sembarang Test")
     }
 
     func testInequalityTriangle() {
@@ -77,7 +77,7 @@ final class Triangle_AppTests: XCTestCase {
         } else if Double((sides[0] * sides[0] + sides[1] * sides[1])).squareRoot() == Double(sides[2]) {
             return "Segitiga Siku-Siku"
         } else {
-            return "Segitiga Sembarang"
+            return "Segitiga Sembarang Test"
         }
     }
 
