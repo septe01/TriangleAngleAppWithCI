@@ -1,6 +1,6 @@
-# language: swift
+language: swift
 # language: generic
-language: objective-c
+# language: objective-c
 osx_image: xcode14
 xcode_project: Triangle App.xcodeproj # path to your xcodeproj folder done
 xcode_scheme: Triangle App
